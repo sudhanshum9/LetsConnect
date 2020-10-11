@@ -1,6 +1,7 @@
 import React from 'react'
 import './Lmessage.css'
 import Sidebar from './Sidebar'
+import Chat from './Chat'
 function Lmessage() {
     return (
         <div className='lmessage'>
@@ -10,6 +11,9 @@ function Lmessage() {
         <Sidebar />
 
          {/*Chat*/}   
+
+         <Chat/>
+
         </div>
     )
 }
