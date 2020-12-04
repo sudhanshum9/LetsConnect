@@ -1,0 +1,8 @@
+version: '3'
+services:          
+    letsconnect:
+        build: .
+        image: letsconnect:v1     
+        container_name: letsconnect
+        ports:
+            - "80:80"
